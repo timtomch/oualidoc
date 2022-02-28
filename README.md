@@ -1,9 +1,3 @@
----
-title: Introduction
-has_children: false
-nav_order: 1
----
-
 # Introduction
 
 Bienvenue dans la documentation Ouali. Ce site est amené à évoluer dans les prochains jours.
@@ -62,7 +56,7 @@ Les numéros et lettres ci-dessous correspondent aux numéros sur la figure.
 6. Panneau de correspondance pour l’élément source, et formulaire de correspondance utilisateur (voir ci-dessous)
 7. Etat global de l’alignement (nombres d’éléments avec ou sans correspondance et en attente d’arbitrage)
 
-###Panneau de correspondance
+### Panneau de correspondance
 Ce panneau donne une vue d’ensemble des diverses sources de correspondance existante pour cet objet. Cela comprend:
 
 * Alignement utilisateur: correspondance (non-correspondance) précise définie explicitement par un utilisateur (correspondance manuelle)
