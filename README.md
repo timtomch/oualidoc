@@ -1,3 +1,9 @@
+---
+title: Introduction
+has_children: false
+nav_order: 1
+---
+
 # Introduction
 
 Bienvenue dans la documentation Ouali. Ce site est amené à évoluer dans les prochains jours.

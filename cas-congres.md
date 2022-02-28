@@ -11,6 +11,8 @@ Cette page regroupe les procédures d'alignement à suivre pour traiter certains
 qui peuvent intervenir dans les instances **collectivités et congrès**.
 Ces procédures sont en cours de discussion par le groupe de travail Ouali et sont amenées à évoluer.
 
+{:toc}
+
 ## Il n'y a pas d'équivalence pour une année de congrès, mais il existe une notice générique
 
 Il s'agit ici de cas d'alignement de notices de congrès. La notice du référentiel source correspond
