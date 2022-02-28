@@ -11,9 +11,9 @@ Cette page regroupe les procédures d'alignement à suivre pour traiter certains
 qui peuvent intervenir dans les instances **collectivités et congrès**.
 Ces procédures sont en cours de discussion par le groupe de travail Ouali et sont amenées à évoluer.
 
-{:toc}
 
-## Il n'y a pas d'équivalence pour une année de congrès, mais il existe une notice générique
+
+## Il n'y a pas d'équivalence exacte pour une année de congrès
 
 Il s'agit ici de cas d'alignement de notices de congrès. La notice du référentiel source correspond
 à une année précise de congrès, mais on ne trouve pas d'équivalent exact dans le référentiel cible.
@@ -61,5 +61,44 @@ Exemple:
 |                                          | International Exeter symposium 05 1992 Exeter, GB        |
 |                                          | International Exeter symposium 07 2004 Charney Manor, GB |
 |                                          | International Exeter symposium 08 2011 Charney Manor, GB |
+
+**Résolution à définir par le GT!**
+
+## Il n'y a pas d'équivalence exacte pour la section d'une organisation
+
+Certaines organisations ont des sections (ou chapitres) géographiques ou spécifiques à un sujet d'étude,
+par exemple. Il peut arriver que le référentiel source dispose d'une notice spécifique à une telle
+section, mais le référentiel cible n'a pas d'équivalence exacte.
+
+Plusieurs cas de figure sont possibles:
+
+### Notice générique existe pour une organisation, mais pas pour la section à aligner
+
+Dans ce cas de figure, le référentiel cible contient une entrée générique pour une organisation
+(faîtière) mais aucune pour ses sections.
+
+Exemple:
+
+| Source                                   | Cible                                                    |
+| ---------------------------------------- | -------------------------------------------------------- |
+| Oeuvre suisse d'entraide ouvrière. Vaud  | Schweizerisches Arbeiterhilfswerk                        |
+|                                          | (aucune autre notice correspondante)                     |
+
+**Résolution à définir par le GT!**
+
+### D'autres sections de cette organisation existent, mais pas pour celle à aligner
+
+Dans ce cas de figure, le référentiel cible contient des entrées pour d'autres sections de l'organisme
+que l'on souhaite aligner, mais pas pour la section à laquelle correspond la notice source. Une entrée
+générique (faîtière) est également disponible.
+
+Exemple:
+
+| Source                                                | Cible                                       |
+| ----------------------------------------------------- | ------------------------------------------- |
+| Fédération suisse de gymnastique. Section de Montreux | Fédération suisse de gymnastique            |
+|                                                       | FSG Fribourg (Suisse)                       |
+|                                                       | FSG Fribourg-Ancienne (Suisse)              |
+|                                                       | FSG Freiburgia (Fribourg, Suisse)           |
 
 **Résolution à définir par le GT!**
