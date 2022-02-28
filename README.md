@@ -8,8 +8,8 @@ On accède à Ouali en naviguant vers [ouali.renouvaud.ch](ouali.renouvaud.ch).
 
 Utilisez vos identifiants Alma habituels pour vous identifier, en prenant soin de choisir le réseau 
 (Network Zone, Sciences et Patrimoines, Écoles et Lecture publique) correspondant à votre identifiant.
-Si votre identifiant ne fonctionne pas, vérifiez auprès de votre administrateur Alma que vous
-bénéficiez bien des droits vous autorisant d'accéder à Ouali.
+Veuillez contacter la [Coordination Renouvaud](mailto:coordrnv@renouvaud.ch) si vous rencontrez des
+difficultés à vous connecter à Ouali.
 
 ## Fonctionnement général
 
