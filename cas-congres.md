@@ -11,34 +11,20 @@ Cette page regroupe les procédures d'alignement à suivre pour traiter certains
 qui peuvent intervenir dans les instances **collectivités et congrès**.
 Ces procédures sont en cours de discussion par le groupe de travail Ouali et sont amenées à évoluer.
 
-
-
 ## Il n'y a pas d'équivalence exacte pour une année de congrès
 
 Il s'agit ici de cas d'alignement de notices de congrès. La notice du référentiel source correspond
 à une année précise de congrès, mais on ne trouve pas d'équivalent exact dans le référentiel cible.
 
-Plusieurs cas de figure sont possible:
+**Consigne: aligner uniquement les équivalences exactes (lieu et année).** (décision GT IdRef 7.3.2022)
 
-### Uniquement notice générique, pas d'autres années disponibles
+Si l'équivalence exacte n'existe pas, il faut définir un non-alignement (notice rouge). Ainsi une autorité sera créée dans le référentiel cible pour ajouter l'année manquante.
 
-Dans ce cas de figure, le référentiel cible dispose d'une notice générique correspondant à la série
-de congrès que l'on souhaite aligner. Après vérification, il n'y a pas de notices spécifiques 
-correspondant aux différentes années de ce congrès dans le référentiel cible.
+### Exemples
 
-| Source                                   | Cible                                                    |
-| ---------------------------------------- | -------------------------------------------------------- |
-| Service romand de vulgarisation agricole. Cours (1986 : Sion) | Agridea Lausanne (t.r. Service Romand de Vulgarisation agricole)|
-|                                          | (aucune autre notice correspondante)       |
+Voici quelques cas de figure qui peuvent se présenter:
 
-
-**Résolution à définir par le GT!**
-
-### Autres années disponibles, mais pas l'année à aligner; pas de notice générique
-
-Dans ce cas de figure, le référentiel cible dispose de notices correspondant à d'autres années de
-ce congrès, mais pas l'année désirée. Après vérification, il n'y a pas non plus de notice générique
-pour ce congrès dans le référentiel cible.
+* Le référentiel cible dispose de notices correspondant à d'autres années de ce congrès, mais pas l'année désirée. Après vérification, il n'y a pas non plus de notice générique pour ce congrès dans le référentiel cible.
 
 | Source                                   | Cible                                                    |
 | ---------------------------------------- | -------------------------------------------------------- |
@@ -46,14 +32,9 @@ pour ce congrès dans le référentiel cible.
 |                                          | International James Joyce Symposium 18 2002 Trieste, Italie |
 |                                          | (aucune autre notice correspondante)       |
 
-**Résolution à définir par le GT!**
+Décision: non-alignement (rouge)
 
-### Autres années et notice générique disponibles, mais pas l'année à aligner
-
-Dans ce cas de figure, le référentiel cible contient des entrées pour d'autres années du congrès
-que l'on souhaite aligner, mais pas pour l'année à laquelle correspond la notice source.
-
-Exemple:
+* Le référentiel cible contient une entrée générique, ainsi que des entrées pour d'autres années du congrès que l'on souhaite aligner, mais pas pour l'année à laquelle correspond la notice source.
 
 | Source                                   | Cible                                                    |
 | ---------------------------------------- | -------------------------------------------------------- |
@@ -62,7 +43,24 @@ Exemple:
 |                                          | International Exeter symposium 07 2004 Charney Manor, GB |
 |                                          | International Exeter symposium 08 2011 Charney Manor, GB |
 
-**Résolution à définir par le GT!**
+Décision: non-alignement (rouge)
+
+* Il existe une équivalence parfaite
+
+| Source                                   | Cible                                                    |
+| ---------------------------------------- | -------------------------------------------------------- |
+| DARH 2005 (1 : 2005 : Yverdon-les-Bains) | Dextrous Autonomous Robots and Humanoids 1 2005 Yverdon-les-Bains, Suisse                           |
+
+Décision: Alignement (vert)
+
+## La notice source ne comporte pas le nom du congrès (incomplète)
+
+Il peut arriver de rencontrer dans le référentiel source des notices de congrès incomplètes, pour lesquelles
+seuls le lieu et/ou l'année sont spécifiées, sans autre détails (p.ex. nom du congrès). 
+Il s'agit dans ce cas d'erreurs de catalogage ou d'importation d'anciens référentiels, et **la notice doit
+être corrigée**.
+
+**Consigne: mettre la notice de côté (cliquer sur - pour renvoyer la notice dans le panier des notices à traiter)** (décision GT IdRef 7.3.2022)
 
 ## Il n'y a pas d'équivalence exacte pour la section d'une organisation
 
@@ -70,29 +68,25 @@ Certaines organisations ont des sections (ou chapitres) géographiques ou spéci
 par exemple. Il peut arriver que le référentiel source dispose d'une notice spécifique à une telle
 section, mais le référentiel cible n'a pas d'équivalence exacte.
 
-Plusieurs cas de figure sont possibles:
+**Consigne: s'il s'agit d'une organisation en lien avec la Suisse, indiquer les sections manquantes comme
+non-alignement (notice rouge).** (décision GT IdRef 7.3.2022)
 
-### Notice générique existe pour une organisation, mais pas pour la section à aligner
+Si la notice n'a pas de lien avec la Suisse, on peut aligner vers une notice générique.
 
-Dans ce cas de figure, le référentiel cible contient une entrée générique pour une organisation
-(faîtière) mais aucune pour ses sections.
+### Exemples
 
-Exemple:
+Voici quelques cas de figure qui peuvent se présenter:
+
+* Le référentiel cible contient une entrée générique pour une organisation (faîtière) mais aucune pour ses sections. Il s'agit d'un organisme suisse.
 
 | Source                                   | Cible                                                    |
 | ---------------------------------------- | -------------------------------------------------------- |
 | Oeuvre suisse d'entraide ouvrière. Vaud  | Schweizerisches Arbeiterhilfswerk                        |
 |                                          | (aucune autre notice correspondante)                     |
 
-**Résolution à définir par le GT!**
+Décision: non-alignement (rouge)
 
-### D'autres sections de cette organisation existent, mais pas pour celle à aligner
-
-Dans ce cas de figure, le référentiel cible contient des entrées pour d'autres sections de l'organisme
-que l'on souhaite aligner, mais pas pour la section à laquelle correspond la notice source. Une entrée
-générique (faîtière) est également disponible.
-
-Exemple:
+* Le référentiel cible contient des entrées pour d'autres sections de l'organisme que l'on souhaite aligner, mais pas pour la section à laquelle correspond la notice source. Il s'agit d'un organisme suisse.
 
 | Source                                                | Cible                                       |
 | ----------------------------------------------------- | ------------------------------------------- |
@@ -101,4 +95,6 @@ Exemple:
 |                                                       | FSG Fribourg-Ancienne (Suisse)              |
 |                                                       | FSG Freiburgia (Fribourg, Suisse)           |
 
-**Résolution à définir par le GT!**
+Décision: non-alignement (rouge)
+
+(Ajouter un exemple de section non-Suisse)

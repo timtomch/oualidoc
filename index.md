@@ -1,3 +1,11 @@
+---
+layout: default
+title: Introduction
+nav_order: 1
+description: "Documentation du projet Ouali de migration des autorités RenouVaud vers IdRef."
+permalink: /
+---
+
 # Introduction
 
 Bienvenue dans la documentation Ouali. Ce site est amené à évoluer dans les prochains jours.
