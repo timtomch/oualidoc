@@ -1,7 +1,7 @@
 ---
 title: Cas particuliers
 has_children: 1
-nav_order: 2
+nav_order: 3
 ---
 
 ## Procédure d'alignement: cas particuliers
