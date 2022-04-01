@@ -1,4 +1,5 @@
 title: "Documentation Ouali"
 remote_theme: pmarsceill/just-the-docs
+color_scheme: color.scss
 search_enabled: true
-logo: "/img/logo-renouvaud.png"
+logo: "/img/logo-renouvaud-ouali.png"

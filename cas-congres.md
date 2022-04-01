@@ -62,6 +62,15 @@ Il s'agit dans ce cas d'erreurs de catalogage ou d'importation d'anciens référ
 
 **Consigne: mettre la notice de côté (cliquer sur - pour renvoyer la notice dans le panier des notices à traiter)** (décision GT IdRef 7.3.2022)
 
+### Exemples
+
+| Source                                   | Cible                                                    |
+| ---------------------------------------- | -------------------------------------------------------- |
+| USA Meeting (1999 : Washington, DC)      | ?                                                        |
+| Congress (2003 : Lyon, France)           | ?                                                        |
+
+Décision: déférer à un.e spécialiste. Renvoyer la notice dans le panier (gris)
+
 ## Il n'y a pas d'équivalence exacte pour la section d'une organisation
 
 Certaines organisations ont des sections (ou chapitres) géographiques ou spécifiques à un sujet d'étude,
