@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Interface Ouali
+title: 2. Interface Ouali
 nav_order: 3
 description: "Présentation de l'interface d'Ouali et des outils à disposition"
+permalink: /interface
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Chantiers et instances
+title: 1. Étapes du chantier
 nav_order: 2
 description: "Étapes du chantier de migration vers IdRef"
 permalink: /chantiers
@@ -17,8 +17,8 @@ Les notices à aligner sont séparées en 5 catégories:
 
 De plus, il y a deux fichiers distincts à aligner:
 
-* Registre ATC (notices d'autorité de noms de personne, collectivités et congrès)
-* Registre rnv-mat (autorités matière comportant noms de personne, collectivités, congrès, titres et lieux)
+1. Registre ATC (notices d'autorité de noms de personne, collectivités et congrès)
+2. Registre rnv-mat (autorités matière comportant noms de personne, collectivités, congrès, titres et lieux)
 
 Pour les notices de type titre et noms de lieux, il suffit donc d'aligner le fichier rnv-mat vers IdRef. En revanche, pour les noms
 de personne, collectivités et congrès, il est nécessaire dans un premier temps d'aligner les notices rnv-mat vers ATC avant d'aligner

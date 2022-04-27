@@ -3,6 +3,7 @@ title: Collectivités et congrès
 parent: Cas particuliers
 has_children: false
 nav_order: 1
+permalink: /congres
 ---
 
 # Collectivités et congrès: cas particuliers

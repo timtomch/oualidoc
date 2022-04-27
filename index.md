@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Introduction
+title: 0. Introduction
 nav_order: 1
 description: "Documentation du projet Ouali de migration des autorités RenouVaud vers IdRef."
 permalink: /
@@ -32,8 +32,6 @@ nécessaires à cette tâche. C'est cette interface qui est ici documentée.
 
 Cette documentation s'organise comme suit:
 
-1. [Aperçu des étapes du chantier de migration vers IdRef](/chantiers)
-2. Présentation de l'interface d'Ouali et des outils à disposition
-3. Règles d'alignement
-    3.1 Généralités
-    3.2 Cas particuliers
+1. [Aperçu des étapes du chantier de migration vers IdRef](chantiers)
+2. [Présentation de l'interface d'Ouali et des outils à disposition](interface)
+3. [Règles d'alignement](regles)
