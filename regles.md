@@ -1,7 +1,7 @@
 ---
 title: Règles d'alignement
 has_children: none
-nav_order: 2
+nav_order: 3
 ---
 
 ## Doublons dans le référentiel cible
