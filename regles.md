@@ -1,6 +1,6 @@
 ---
 title: 3. Règles d'alignement
-has_children: none
+has_children: true
 nav_order: 3
 permalink: /regles
 ---

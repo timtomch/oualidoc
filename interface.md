@@ -6,10 +6,9 @@ description: "Présentation de l'interface d'Ouali et des outils à disposition"
 permalink: /interface
 ---
 
+# Interface Ouali
 
-#Interface Ouali
-
-On accède à Ouali en naviguant vers [ouali.renouvaud.ch](ouali.renouvaud.ch). 
+On accède à Ouali en naviguant vers [ouali.renouvaud.ch](https://ouali.renouvaud.ch). 
 
 Utilisez vos identifiants Alma habituels pour vous identifier, en prenant soin de choisir le réseau 
 (Network Zone, Sciences et Patrimoines, Écoles et Lecture publique) correspondant à votre identifiant.
@@ -18,7 +17,15 @@ difficultés à vous connecter à Ouali.
 
 ## Fonctionnement général
 
-Le système Ouali gère des alignements entre des paires (source-cible) de référentiels. Un alignement consiste à définir pour chaque élément du référentiel source une correspondance vers un élément cible (ou une non-correspondance lorsque aucun élément cible ne correspond). Ainsi, chaque alignement (entre deux référentiels) est constitué de nombreuses correspondances (entre des éléments des référentiels concernés)
+
+
+
+Le système Ouali gère des alignements entre des paires 
+
+
+
+
+(source-cible) de référentiels. Un alignement consiste à définir pour chaque élément du référentiel source une correspondance vers un élément cible (ou une non-correspondance lorsque aucun élément cible ne correspond). Ainsi, chaque alignement (entre deux référentiels) est constitué de nombreuses correspondances (entre des éléments des référentiels concernés)
 
 Pour construire ces alignements, le système effectue, pour chaque élément source, une recherche d’éléments cibles correspondants qui sont ensuite comparés de manière détaillée au moyen d’un algorithme de correspondance. En fonction des résultats de ces calculs de correspondance, le système va émettre une décision pour l’élément source concerné qui consistera soit à établir automatiquement des informations de correspondance pour l’élément source (avec ou sans entité cible correspondante), soit de mettre l’élément source en état d’attente d’arbitrage manuel.
 

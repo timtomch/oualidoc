@@ -43,7 +43,7 @@ Voici la liste des instances à traiter. Le code décrivant chaque instance se r
 lorsqu'une instance est subdivisée en fonction du nombre d'occurences.
 
 | Code      | Catégorie                | Chantier           | Occurences          | Notices (total) | À arbitrer (estim.) |
-| ----------| -------------------------|--------------------|---------------------|-----------------|---------------------|
+| ----------| -------------------------|--------------------|---------------------|----------------:|--------------------:|
 | RI-G      | Lieux                    | rnv-mat vers IdRef |                     | 19'116          | 6'500               |
 | RI-T      | Titres                   | rnv-mat vers IdRef |                     | 4'336           | 700                 |
 | RA-P1     | Noms de personne         | rnv-mat vers ATC   | occurences faibles  | 15'748          | 2'200               |
