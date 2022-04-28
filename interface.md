@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 2. Interface Ouali
+has_children: true
 nav_order: 3
 description: "Présentation de l'interface d'Ouali et des outils à disposition"
 permalink: /interface
@@ -17,49 +18,107 @@ difficultés à vous connecter à Ouali.
 
 ## Fonctionnement général
 
+Le système Ouali gère des alignements de notices d'autorité entre un référentiel source et un référentiel cible. Chaque _alignement_
+représente une notice d'autorité du référentiel source aligné vers une notice dans le référentiel cible.
 
-
-
-Le système Ouali gère des alignements entre des paires 
-
-
-
-
-(source-cible) de référentiels. Un alignement consiste à définir pour chaque élément du référentiel source une correspondance vers un élément cible (ou une non-correspondance lorsque aucun élément cible ne correspond). Ainsi, chaque alignement (entre deux référentiels) est constitué de nombreuses correspondances (entre des éléments des référentiels concernés)
-
-Pour construire ces alignements, le système effectue, pour chaque élément source, une recherche d’éléments cibles correspondants qui sont ensuite comparés de manière détaillée au moyen d’un algorithme de correspondance. En fonction des résultats de ces calculs de correspondance, le système va émettre une décision pour l’élément source concerné qui consistera soit à établir automatiquement des informations de correspondance pour l’élément source (avec ou sans entité cible correspondante), soit de mettre l’élément source en état d’attente d’arbitrage manuel.
+Pour construire ces alignements, le système effectue, pour chaque notice du référentiel source, une recherche de notices dans le 
+référentiel cible correspondantes qui sont ensuite comparés de manière détaillée au moyen d’un algorithme. 
+En fonction des résultats de ces calculs de correspondance, le système va émettre une décision pour la notice source concernée qui 
+consistera soit à établir automatiquement soit une décision d'alignement vers une notice correspondante dans le référentiel cible,
+soit une décision de non-alignement (il n'y a pas d'équivalence dans le référentiel cible), soit encore de laisser la notice source
+en état d’attente d’arbitrage manuel.
 
 Ces éléments en attente d’arbitrage peuvent ensuite être traités au moyen de l’interface d’arbitrage décrite dans ce manuel et ainsi compléter l’alignement.
+
+Chaque utilisateur se voit automatiquement attribuer un ensemble de notices à arbitrer (initialement 25) qu’il peut alors traiter à son rythme, tout en rejetant les cas qu’il n’est pas en mesure de traiter. Au fur et à mesure de l’avancement, des nouveaux éléments sont automatiquement attribués en fin de liste à de sorte à conserver un ensemble contenant toujours au moins 25 éléments jusqu’à ce que la totalité des cas à arbitrer soit traitée. 
+
+Les éléments restent attribués pour une période de 10 jours au maximum (remis à zéro lors de chaque connexion sur Ouali). Ensuite, ils redeviennent disponibles pour être attribués à d’autres utilisateurs.
+
+## Codes de couleur
+
+Lorsqu'une **décision d'alignement** vers une notice du référentiel cible a été effectuée (soit automatiquement soit après arbitrage
+manuel), la notice s'affiche en **vert** dans Ouali.
+
+Lorsqu'une **décision de non-alignement** a été effectuée (automatiquement ou manuellement), la notice s'affiche en **rouge**.
+
+Lorsqu'une notice est **en attente d'arbitrage** (aucune décision n'a encore été prise), elle s'affiche en **gris**.
+
+La notice **actuellement sélectionnée** (sur laquelle on travaille) s'affiche en **bleu**.
+
+## Liste des instances
+
+Une fois identifié dans Ouali, la liste des [instances](chantiers#instances-ouali) s'affiche. Cliquer sur le bouton "Arbitrage" pour
+ouvrir l'une des instances et débuter le travail d'arbitrage.
+
+![Liste des instances dans l'interface Ouali](/img/interface-liste-instances.png) 
+
+Noter qu'il peut être nécessaire de faire défiler la liste des instances pour les afficher toutes.
 
 ## Interface d'arbitrage
 
 Lorsque vous ouvrez une nouvelle instance, la fenêtre suivante s'affiche.
 
-Chaque utilisateur se voit automatiquement attribuer un ensemble d’éléments à arbitrer (initialement 25) qu’il peut alors traiter à son rythme, tout en rejetant les cas qu’il n’est pas en mesure de traiter. Au fur et à mesure de l’avancement, des nouveaux éléments sont automatiquement attribués en fin de liste à de sorte à conserver un ensemble contenant toujours au moins 25 éléments jusqu’à ce que la totalité des cas à arbitrer aient été traités. 
+![Interface d'arbitrage Ouali](/img/interface-alignement.png) 
 
-Les éléments restent attribués pour une période de 10 jours au maximum (remis à zéro lors de chaque connexion sur Ouali). Ensuite, ils redeviennent disponibles pour être attribués à d’autres utilisateurs.
+On remarque les éléments d'interface suivants (décrits plus en détail plus loin):
 
-Le processus d’arbitrage manuel consiste à sélectionner un élément source à traiter dans les liste des éléments à traiter (1) pour l’analyser (2) ensuite choisir l’entité cible correspondante (3) au moyen de la liste des candidats automatiques (4) ou au moyen d’une recherche manuelle (5). Une fois qu’une entité cible correspondante a été sélectionnée, ou qu’aucune entité cible correspondante n’a pu être identifiée, il est alors possible de définir le détail des informations de correspondance (type, niveau de confiance, …) au moyen du formulaire adéquat (6).
+1. Liste des notices à traiter dans le référentiel source
+2. Détail de la notice source en cours de traitement (sélectionnée dans la liste 1)
+3. Détail de la notice candidate cible (sélectionnée dans la liste 4)
+4. Liste des candidats automatiques proposés par Ouali
+5. Onglet Recherche pour lancer une recherche manuelle dans le référentiel cible
+6. Formulaire d'alignement
+7. Barre de progression de l'instance active (nombres d’éléments avec ou sans correspondance et en attente d’arbitrage)
+8. Menu d'aide et menu utilisateur (pour se déconnecter)
+9. Retour à la liste des instances
 
-![Interface Ouali](/img/interface-alignement.png) 
+Le processus d’arbitrage manuel consiste à sélectionner une notice source à traiter dans les liste des éléments à traiter (1) pour l’analyser (2) ensuite choisir l’entité cible correspondante (3) au moyen de la liste des candidats automatiques (4) ou au moyen d’une recherche manuelle (5). Une fois qu’une entité cible correspondante a été sélectionnée, ou qu’aucune entité cible correspondante n’a pu être identifiée, il est alors possible de définir le détail des informations de correspondance au moyen du formulaire d'alignement (6).
 
-Les numéros et lettres ci-dessous correspondent aux numéros sur la figure.
+### 1. Liste des notices à traiter
 
-1. Liste des éléments sources comprenant un onglet nommé Attribués pour accéder à la liste des éléments attribués spécifiquement à soi, ou traités par soi, et un onglet Tout contenant tous les éléments.
-    1. Bouton permettant d’obtenir des éléments attribués supplémentaires (ajoutés en fin de liste)
-    2. Bouton permettant de rejeter tous les éléments attribués et de recevoir un nouvel ensemble d’éléments attribués
-    3. Bouton pour rejeter un élément spécifique
-    4. Liste des éléments traités précédemment
-2. Détail de l’élément source en cours de traitement. La couleur de l’en-tête indique l’état de la correspondance pour cet élément: bleu = aucune information de correspondance définie (en arbitrage), vert = correspondance avec un élément cible définie, rouge = correspondance sans élément cible (rejet)
+Cet élément d'interface contrôle quelle notice du référentiel source est sélectionnée pour traitement.
+
+L'onglet "Attribués" s'affiche par défaut:
+
+![Liste des notices attribuées](/img/interface-source-attribue.png) 
+
+Cette liste comporte les notices qui ont été attribuées automatiquement à l'usager actif. Les opérations suivantes sont possibles
+
+a. Obtenir des notices attribuées supplémentaries (ajoutées en fin de liste)
+b. Rejeter tous les éléments attribués et de recevoir un nouvel ensemble d’éléments attribués
+c. Rejeter un élément spécifique et le renvoyer dans le lot général des notices à traiter. C'est l'option à choisir lorsqu'on n'est pas certain de la décision à prendre. La notice sera réattribuée à un autre usager.
+d. Cliquer sur une notice dans la liste pour la sélectionner et l'afficher dans la partie 2 de l'interface.
+e. Il est également possible de sélectionner ici une notice déjà traitée et ainsi modifier une décision déjà prise (par exemple pour corriger une erreur).
+
+En cliquant sur l'onglet "Tout" on accède à la liste de toutes les notices présentes dans le référentiel source actif. 
+
+![Liste de toutes les notices du référentiel source](/img/interface-source-attribue.png) 
+
+On peut ici rechercher une notice dans le référentiel source par texte ou avec son numéro de notice, ou naviguer la liste des notices
+avec les options de pagination.
+
+Noter que les résultats d'une recherche s'affichent dans la page 1 de la liste. Lorsqu'on fait une recherche dans cet onglet, s'assurer
+que la page 1 est sélectionnée.
+
+### 2. Détail de la notice source    
+
+Détail de l’élément source en cours de traitement. La couleur de l’en-tête indique l’état de la correspondance pour cet élément: bleu = aucune information de correspondance définie (en arbitrage), vert = correspondance avec un élément cible définie, rouge = correspondance sans élément cible (rejet)
     1. Bouton permettant d’accéder à la vue MARC de l’entité
     2. Liste des notices bibliographiques liées et des correspondances existantes (partie droite)
-3. Détail de l’élément cible (forme du contenu identique à l’élément source)
-4. Liste des candidats automatiques avec une indication sur le résultat de correspondance automatique
-5. Onglet permettant d’accéder à la recherche directe, si les candidats automatiques ne semblent pas satisfaisants.
-6. Panneau de correspondance pour l’élément source, et formulaire de correspondance utilisateur (voir ci-dessous)
-7. Etat global de l’alignement (nombres d’éléments avec ou sans correspondance et en attente d’arbitrage)
 
-### Panneau de correspondance
+### 3. Détail de la notice cible   
+
+Détail de l’élément cible (forme du contenu identique à l’élément source)
+
+### 4. Liste des candidats
+
+Liste des candidats automatiques avec une indication sur le résultat de correspondance automatique
+
+### 5. Recherche dans le référentiel cible
+
+Onglet permettant d’accéder à la recherche directe, si les candidats automatiques ne semblent pas satisfaisants.
+
+### 6. Panneau de correspondance
 Ce panneau donne une vue d’ensemble des diverses sources de correspondance existante pour cet objet. Cela comprend:
 
 * Alignement utilisateur: correspondance (non-correspondance) précise définie explicitement par un utilisateur (correspondance manuelle)

@@ -12,6 +12,9 @@ Cette section décrit les règles à suivre lors de l'arbitrage des alignements 
 
 * [Collectivités et congrès](congres)
 
+Ces procédures sont en cours de développement et restent à discuter par le groupe de travail Ouali.
+Elles sont donc amenées à évoluer.
+
 ## Généralités
 
 Le but du projet est de remplacer les référentiels existants par IdRef. On cherche donc à remplacer chaque notice d'autorité
