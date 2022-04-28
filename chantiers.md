@@ -37,6 +37,35 @@ Il est également à noter qu'on ne fait actuellement pas d'alignement via les A
 situation particulière aux titres dans le fichier ATC (certains titres de série ont été ajoutés au fichier d'autorité lors de la
 migration initiale vers Alma).
 
+## Spécificités des référentiels
+
+### ATC
+Le référentiel ATC est utilisé par Renouvaud et RERO depuis plus de 20 ans. Son nom provient du fait qu'il contient des notices 
+d'autorité de type Auteurs, Titres et Collectivités.
+
+De par sa nature romande, le référentiel ATC comporte de nombreuses spécificités régionales. On s'attend à ne pas trouver une notice
+cible dans IdRef pour ces notices spécifiques au contexte vaudois. Celles-ci seront créées dans IdRef lors de la migration.
+
+### IdRef
+Le référentiel IdRef est surtout utilisé dans des bibliothèques universitaires et de recherche, principalement en France et de plus
+en plus dans d'autres contextes francophones. Par conséquent, on s'attend à y trouver des notices assez pointues, par contre les
+entrées spécifiques au contexte romand, voire suisse ou germanophone en général, sont plus rares. RERO a commencé à ajouter de telles
+notices dans IdRef. Les instances Ouali sont mises à jour régulièrement avec les alignements ainsi fournis par RERO, mais il est 
+possible qu'il y ait un délai entre la dernière mise à jour et de telles créations récentes. Il ne faut donc pas s'étonner si on
+trouve dans IdRef des alignements "évidents" qui n'ont pas été identifiés par l'algorithme d'Ouali.
+
+Il faut être attentif au fait qu'IdRef contient des entrées de noms de personne de type "sujet", par exemple pour les personnages
+historiques ou fictifs.
+
+IdRef comporte également des notices "auteur-titre" (par exemple _Baudelaire, Charles 1821-1867 Le Spleen de Paris_) qui ne sont
+pas distinguées des notices de type "nom de personne". Il est important de ne pas aligner des auteurs vers des auteurs-titre.
+
+Les règles de catalogage utilisés pour la création d'entrée dans IdRef diffèrent de celles utilisées dans les référentiels rnv-mat
+ou ATC. Notamment, IdRef utilise la forme francisée pour les noms propres (p.ex. _Louis II roi de Bavière 1845-1886_) alors que les ATC
+par exemple utilisent la langue d'origine (_Ludwig II, roi de Bavière_).
+
+Pour plus de détails, [consulter la documentation IdRef](http://documentation.abes.fr/aideidref/accueil/fr/index.html).
+
 ## Instances Ouali
 Il y a environ 1.2 million de notices à traiter au total. On estime qu'Ouali est capable d'aligner automatiquement 60%-80% de cas, suivant la catégorie, ce qui laisse environ 200'000 notices à arbitrer manuellement.
 
