@@ -16,6 +16,10 @@ Utilisez vos identifiants Alma habituels pour vous identifier, en prenant soin d
 Veuillez contacter la [Coordination Renouvaud](mailto:coordrnv@renouvaud.ch) si vous rencontrez des
 difficultés à vous connecter à Ouali.
 
+## Capsules vidéo
+
+Une introduction à l'usage de l'interface Ouali [est également disponible sous forme de courtes capsules vidéo](https://coordvd.zendesk.com/hc/fr/articles/4458702255378--Nouveaut%C3%A9-04-22-Introduction-%C3%A0-Ouali).
+
 ## Fonctionnement général
 
 Le système Ouali gère des alignements de notices d'autorité entre un référentiel source et un référentiel cible. Chaque _alignement_
@@ -80,7 +84,7 @@ Cet élément d'interface contrôle quelle notice du référentiel source est s�
 
 L'onglet "Attribués" s'affiche par défaut:
 
-![Liste des notices attribuées](/img/interface-source-attribues.png) 
+<img src="/img/interface-source-attribues.png" alt="Liste des notices attribuées" width="200px"/>
 
 Cette liste comporte les notices qui ont été attribuées automatiquement à l'usager actif. Les opérations suivantes sont possibles
 
@@ -92,7 +96,7 @@ Cette liste comporte les notices qui ont été attribuées automatiquement à l'
 
 En cliquant sur l'onglet "Tout" on accède à la liste de toutes les notices présentes dans le référentiel source actif. 
 
-![Liste de toutes les notices du référentiel source](/img/interface-source-tout.png) 
+<img src="/img/interface-source-tout.png" alt="Liste de toutes les notices du référentiel source" width="200px"/>
 
 On peut ici 
 
@@ -130,21 +134,44 @@ référentiel cible, basculer dans l'onglet de recherche (section suivante).
 
 ### 5. Recherche dans le référentiel cible
 
-Onglet permettant d’accéder à la recherche directe, si les candidats automatiques ne semblent pas satisfaisants.
+Lorsqu'aucun candidat proposé par Ouali n'est satisfaisant, une recherche manuelle dans le référentiel cible est souvent nécessaire.
+Cette opération s'effectue dans l'onglet Recherche à côté de la liste des candidats:
 
-### 6. Panneau de correspondance
-Ce panneau donne une vue d’ensemble des diverses sources de correspondance existante pour cet objet. Cela comprend:
-La couleur de l’en-tête indique l’état d'alignement pour cet élément: bleu = aucune information de correspondance définie (en arbitrage), vert = alignement avec un élément cible défini, rouge = décision de non-alignement (rejet).
+![Interface de recherche dans le référentiel cible](/img/interface-recherche-cible.png) 
 
-* Alignement utilisateur: correspondance (non-correspondance) précise définie explicitement par un utilisateur (correspondance manuelle)
-* Alignement externe: alignement pré-existant tels que VIAF ou provenant d’un projet local
-* Recherche automatique: algorithme de recherche automatique de correspondance dans le réservoir cible à partir des libellés de l’objet source. Cet algorithme fournit un ensemble de candidat classé en trois catégories: valide (vert), fort (orange) ou faible (rouge)
+Les opérations suivantes sont possibles
 
-La partie inférieure (décision) indique la correspondance effectivement établie par le système. Celle-ci est définie par un algorithme de décision à partir des informations existantes. En l’état, l'algorithme sélectionne la première correspondance valide parmi les 3 sources d’informations prises dans l’ordre, soit:
+1. Introduire ici la chaîne de caractères à rechercher. La recherche se fait immédiatement dès que l'on commence à taper du texte dans ce champ, il n'est donc pas nécessaire de taper "retour" pour lancer la recherche. La recherche se fait dans les formes principales et rejetées.
+2. Les résultats retournés s'affichent ici. Cliquer sur un des résultats pour le sélectionner, les détails s'affichent alors dans le panneau de détail de la notice cible (numéro 3 dans la vue d'ensemble) et cette notice sera utilisée pour définir l'alignement.
+3. Le type de notice s'affiche ici pour chaque résultat de recherche.
+4. Par défaut, la recherche se fait dans tous les types de notice, mais il est possible de restreindre la recherche pour se cantonner à un type particulier. Par exemple, si on aligne des notices géographiques, il peut être utile de restreindre les résultats de recherche à ce type pour éviter de sélectionner par erreur une notice d'un autre type.
 
-1. Si une correspondance utilisateur existe, alors celle-ci sera systématiquement sélectionnée
-2. Sinon, si une correspondance externe existe, alors celle-ci est sélectionnée
-3. Sinon, si la recherche automatique produit un unique candidat valide, alors celui-ci sera sélectionné
-4. Sinon, aucune correspondance (ou non correspondance) ne sera établie pour cet élément qui sera alors considéré comme devant être attribué pour un arbitrage utilisateur
+Quelques considérations à observer
 
-Finalement, le panneau comprend également un bouton permettant de définir, ou d’éditer, les informations de correspondance utilisateur.
+* La recherche par texte n'est en principe pas sensible à la casse ni la ponctuation. L'ordre des mots peut jouer un rôle en revanche. Lorsqu'on ne trouve pas les résultats escomptés, il peut être utile d'essayer plusieurs permutations des mots pertinents.
+* Faire également attention aux différences de graphie, de langue ou de translittération. Là encore, plusieurs essais sont parfois nécessaires avant de trouver la correspondance recherchée.
+* Pour l'alignement vers IdRef, il peut être utile d'utiliser [l'interface de recherche native d'IdRef](https://www.idref.fr/) suivant la complexité de cas.
+* Si on a l'identifiant d'une notice dans le référentiel cible (par exemple le numéro d'une notice IdRef trouvé lors d'une recherche dans leur interface web), il est possible de la retrouver en utilisant le même champ recherche. Une notice ainsi trouvée par identifiant s'affiche en bleu:
+
+![Recherche par identifiant du notice cible](/img/interface-recherche-cible-id.png) 
+
+### 6. Panneau d'alignement (correspondance)
+
+Lorsqu'on a trouvé une notice dans le référentiel cible vers laquelle on souhaite aligner la notice source sélectionnée,
+ou qu'on s'est assuré qu'il n'y a aucune équivalence pour cette notice, on utilise ce panneau pour enregistrer cette décision.
+
+La couleur de l’en-tête indique l’état d'alignement actuel de la notice source sélectionnée: bleu = aucune information de correspondance définie (en arbitrage), vert = alignement avec un élément cible défini, rouge = décision de non-alignement (rejet).
+
+Après s'être assuré que la notice actuellement sélectionnée dans la liste des candidats (4 dans la vue d'ensemble) ou l'onglet 
+recherche (5) est correcte, utiliser les options accessibles via le menu contextuel à côté du bouton "Définir" pour enregistrer la décision d'alignement:
+
+![Recherche par identifiant du notice cible](/img/interface-correspondance-actions-rapides.png) 
+
+1. Cliquer sur la flèche à droite du bouton "Définir" pour accéder aux options d'enregistrement rapide
+2. Choisir l'option "validation immédiate" pour enregistrer une décision d'alignement vers la notice cible sélectionnée (vert)
+3. Choisir l'option "rejet immédiat" pour enregistrer une décision de non-alignement (rouge)
+
+Ces deux options d'enregistrement rapides sont suffisantes pour la très grande majorité des cas.
+
+Cependant, il peut être nécessaire d'afficher les détails d'un alignement, notamment lorsqu'on doit corriger un alignement existant.
+Pour cela, cliquer sur le bouton "Définir" pour afficher l'interface détaillée:

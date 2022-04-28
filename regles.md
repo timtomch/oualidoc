@@ -30,7 +30,9 @@ le terme existant _Les Ormonts (Suisse)_.
 **S'il n'existe aucun équivalent:** prendre une décision de non-alignement (rouge). Par exemple si _Glärnisch (Suisse, mont)_ n'a
 aucune équivalence dans le référentiel cible, il faut choisir l'option "aucune correspondance".
 
-**IMPORTANT: En cas de doute:** ne prendre aucune décision et remettre la notice dans le lot des notices à traiter (cliquer sur le bouton "-").
+**IMPORTANT: En cas de doute:** ne prendre aucune décision et retirer la notice du lot des notices attribuées (cliquer sur le bouton "-" dans [la liste des notices à traiter](interface#1-liste-des-notices-%C3%A0-traiter).):
+
+![Retirer une notice de la liste des notices à traiter](/img/interface-retirer-alignement.png) 
 
 Il est important de se rappeler de la différence entre un alignement à arbitrer (aucune décision prise, en gris dans Ouali) et un
 non-alignement (en rouge). Le premier restera dans la pile des alignements à traiter jusqu'à ce que quelqu'un prenne une décision,

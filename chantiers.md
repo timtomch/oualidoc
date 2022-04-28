@@ -17,7 +17,7 @@ Les notices à aligner sont séparées en 5 catégories:
 
 De plus, il y a deux fichiers distincts à aligner:
 
-1. Registre ATC (notices d'autorité de noms de personne, collectivités et congrès)
+1. Registre ATC (fichier RERO de notices d'autorité de noms de personne, collectivités et congrès et titres)
 2. Registre rnv-mat (autorités matière comportant noms de personne, collectivités, congrès, titres et lieux)
 
 Pour les notices de type titre et noms de lieux, il suffit donc d'aligner le fichier rnv-mat vers IdRef. En revanche, pour les noms
@@ -30,7 +30,12 @@ pertinent. Chacune de ces opérations d'alignement est représentée sous la for
 ![Instances Ouali](/img/alignements.svg)
 
 On remarquera que pour l'alignement de rnv-mat vers les ATC, on ne sépare pas les notices de type collectivités et congrès. Ceci est
-dû au fait que les collectivités et congrès sont parfois utilisé de manière interchangeable dans les ATC (**À VÉRIFIER!**).
+dû au fait que certains congrès ont une entrée principale de type collectivité. Vu qu'Ouali utilise cette information lors de la
+définition des instances, il n'est actuellement pas possible de séparer les collectivités des congrès dans les ATC.
+
+Il est également à noter qu'on ne fait actuellement pas d'alignement via les ATC pour les notices de type titre. Ceci est dû à une
+situation particulière aux titres dans le fichier ATC (certains titres de série ont été ajoutés au fichier d'autorité lors de la
+migration initiale vers Alma).
 
 ## Instances Ouali
 Il y a environ 1.2 million de notices à traiter au total. On estime qu'Ouali est capable d'aligner automatiquement 60%-80% de cas, suivant la catégorie, ce qui laisse environ 200'000 notices à arbitrer manuellement.
@@ -51,11 +56,11 @@ lorsqu'une instance est subdivisée en fonction du nombre d'occurences.
 | AI-P1     | Noms de personne         | ATC vers IdRef     | occurences faibles  | 753'928         | 94'000              |
 | AI-P2     | Noms de personne         | ATC vers IdRef     | occurences moyennes | 128'666         | 24'000              |
 | AI-P3     | Noms de personne         | ATC vers IdRef     | occurences élevées  | 129'157         | 29'000              |
-| RI-P      | Noms de personne         | rnv-mat vers IdRef |                     | 12'000 (est.)   | 2'000               |
+| RI-P      | Noms de personne         | rnv-mat vers IdRef |                     | (est.) 12'000   | 2'000               |
 | RA-C      | Collectivités et congrès | rnv-mat vers ATC   |                     | 13'502          | 4'400               |
 | AI-C1     | Collectivités et congrès | ATC vers IdRef     | occurences faibles  | 82'747          | 33'000              |
 | AI-C2     | Collectivités et congrès | ATC vers IdRef     | occurences élevées  | 12'934          | 5'600               |
-| RI-ORG    | Collectivités            | rnv-mat vers IdRef |                     | 4'500 (est.)    | 1'000               |
-| RI-CO     | Congrès                  | rnv-mat vers IdRef |                     | 3'000 (est.)    | 1'000               |
+| RI-ORG    | Collectivités            | rnv-mat vers IdRef |                     | (est.) 4'500    | 1'000               |
+| RI-CO     | Congrès                  | rnv-mat vers IdRef |                     | (est.)3'000     | 1'000               |
 
 (état: avril 2022)
