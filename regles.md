@@ -12,6 +12,7 @@ Cette section décrit les règles à suivre lors de l'arbitrage des alignements 
 à toutes les instances. Vous trouverez également une liste de cas particuliers à chaque instance dans les pages suivantes:
 
 * [Collectivités et congrès](congres)
+* [Noms de personne](personnes)
 
 Ces procédures sont en cours de développement et restent à discuter par le groupe de travail Ouali.
 Elles sont donc amenées à évoluer.

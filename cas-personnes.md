@@ -3,7 +3,7 @@ title: Noms de personne
 parent: 3. Règles d'alignement
 has_children: false
 nav_order: 2
-permalink: /congres
+permalink: /personnes
 ---
 
 # Noms de personne: cas particuliers

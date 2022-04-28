@@ -177,7 +177,7 @@ Ces deux options d'enregistrement rapides sont suffisantes pour la très grande 
 Cependant, il peut être nécessaire d'afficher les détails d'un alignement, notamment lorsqu'on doit corriger un alignement existant.
 Pour cela, cliquer sur le bouton "Définir" pour afficher l'interface détaillée:
 
-![Interface détaillée du panneau d'alignement](/img/interface-correspondance-actions-rapides.png)
+![Interface détaillée du panneau d'alignement](/img/interface-correspondance-detail.png)
 
 Les actions suivantes sont possibles dans cette interface:
 
