@@ -80,22 +80,24 @@ Cet élément d'interface contrôle quelle notice du référentiel source est s�
 
 L'onglet "Attribués" s'affiche par défaut:
 
-![Liste des notices attribuées](/img/interface-source-attribue.png) 
+![Liste des notices attribuées](/img/interface-source-attribues.png) 
 
 Cette liste comporte les notices qui ont été attribuées automatiquement à l'usager actif. Les opérations suivantes sont possibles
 
-a. Obtenir des notices attribuées supplémentaries (ajoutées en fin de liste)
-b. Rejeter tous les éléments attribués et de recevoir un nouvel ensemble d’éléments attribués
-c. Rejeter un élément spécifique et le renvoyer dans le lot général des notices à traiter. C'est l'option à choisir lorsqu'on n'est pas certain de la décision à prendre. La notice sera réattribuée à un autre usager.
-d. Cliquer sur une notice dans la liste pour la sélectionner et l'afficher dans la partie 2 de l'interface.
-e. Il est également possible de sélectionner ici une notice déjà traitée et ainsi modifier une décision déjà prise (par exemple pour corriger une erreur).
+1. Obtenir des notices attribuées supplémentaries (ajoutées en fin de liste)
+2. Rejeter tous les éléments attribués et de recevoir un nouvel ensemble d’éléments attribués
+3. Rejeter un élément spécifique et le renvoyer dans le lot général des notices à traiter. C'est l'option à choisir lorsqu'on n'est pas certain de la décision à prendre. La notice sera réattribuée à un autre usager.
+4. Cliquer sur une notice dans la liste pour la sélectionner et l'afficher dans la partie 2 de l'interface.
+5. Il est également possible de sélectionner ici une notice déjà traitée et ainsi modifier une décision déjà prise (par exemple pour corriger une erreur).
 
 En cliquant sur l'onglet "Tout" on accède à la liste de toutes les notices présentes dans le référentiel source actif. 
 
-![Liste de toutes les notices du référentiel source](/img/interface-source-attribue.png) 
+![Liste de toutes les notices du référentiel source](/img/interface-source-tout.png) 
 
-On peut ici rechercher une notice dans le référentiel source par texte ou avec son numéro de notice, ou naviguer la liste des notices
-avec les options de pagination.
+On peut ici 
+
+6. rechercher une notice dans le référentiel source par texte ou avec son numéro de notice
+7. ou naviguer la liste des notices avec les options de pagination.
 
 Noter que les résultats d'une recherche s'affichent dans la page 1 de la liste. Lorsqu'on fait une recherche dans cet onglet, s'assurer
 que la page 1 est sélectionnée.
