@@ -96,25 +96,37 @@ En cliquant sur l'onglet "Tout" on accède à la liste de toutes les notices pr�
 
 On peut ici 
 
-6. rechercher une notice dans le référentiel source par texte ou avec son numéro de notice
-7. ou naviguer la liste des notices avec les options de pagination.
+1. rechercher une notice dans le référentiel source par texte ou avec son numéro de notice
+2. ou naviguer la liste des notices avec les options de pagination.
 
 Noter que les résultats d'une recherche s'affichent dans la page 1 de la liste. Lorsqu'on fait une recherche dans cet onglet, s'assurer
 que la page 1 est sélectionnée.
 
 ### 2. Détail de la notice source    
 
-Détail de l’élément source en cours de traitement. La couleur de l’en-tête indique l’état de la correspondance pour cet élément: bleu = aucune information de correspondance définie (en arbitrage), vert = correspondance avec un élément cible définie, rouge = correspondance sans élément cible (rejet)
-    1. Bouton permettant d’accéder à la vue MARC de l’entité
-    2. Liste des notices bibliographiques liées et des correspondances existantes (partie droite)
+Détail de l’élément source en cours de traitement.
+
+![Notice source en cours de traitement](/img/interface-tab-source.png) 
+
+Les opérations suivantes sont possibles
+
+1. Bouton permettant de basculter entre la vue MARC et l'affichage visuel de la notice source
+2. Liste des notices bibliographiques liées et des correspondances existantes. Un clic droit sur l'une de ces notices affiche un menu contextuel avec les deux options suivantes
+3. Voir la notice bibliographique liée au format MARC
+4. Signaler que la notice d'autorité courante a été attribuée par erreur à cette notice bibliographique. Il peut arriver que l'on tombe sur un cas de figure où une notice d'autorité a été attribuée par erreur. On peut ainsi signaler une telle erreur pour qu'elle soit corrigée par la suite. Cette opératio a pour effet d'ajouter un sous-champ "vedette incorrecte".
+5. Cette icône indique la catégorie de notice dont il s'agit (ici une notice de type lieu/géographique)
+6. Numéro de la notice dans le référentiel source. C'est le numéro à noter si l'on relève une question ou un problème avec une notice particulière et qu'on souhaite le transmettre à quelqu'un. Ce numéro unique permet de retrouver la notice en question avec plus de certitude qu'avec la vedette.
 
 ### 3. Détail de la notice cible   
 
-Détail de l’élément cible (forme du contenu identique à l’élément source)
+Détail de la notice cible actuellement sélectionnée dans la liste 4. Les éléments d'interface sont ici identiques au panneau précédent (notice source), à l'exception du menu contextuel dans la liste des notices bibliographiques liées, qui n'est pas disponible ici.
 
 ### 4. Liste des candidats
 
-Liste des candidats automatiques avec une indication sur le résultat de correspondance automatique
+Liste des candidats proposés par Ouali. La petite icône affichée donne une indication du niveau de confiance attribué par Ouali à chacun des candidats affichés: confiance élevée (vert), confiance partielle (organge), confiance basse (rouge).
+
+Cette liste n'est pas exhaustive, elle ne reprend que les candidats proposés par l'alogrithme d'Ouali. Pour rechercher l'ensemble du
+référentiel cible, basculer dans l'onglet de recherche (section suivante).
 
 ### 5. Recherche dans le référentiel cible
 
@@ -122,6 +134,7 @@ Onglet permettant d’accéder à la recherche directe, si les candidats automat
 
 ### 6. Panneau de correspondance
 Ce panneau donne une vue d’ensemble des diverses sources de correspondance existante pour cet objet. Cela comprend:
+La couleur de l’en-tête indique l’état d'alignement pour cet élément: bleu = aucune information de correspondance définie (en arbitrage), vert = alignement avec un élément cible défini, rouge = décision de non-alignement (rejet).
 
 * Alignement utilisateur: correspondance (non-correspondance) précise définie explicitement par un utilisateur (correspondance manuelle)
 * Alignement externe: alignement pré-existant tels que VIAF ou provenant d’un projet local
