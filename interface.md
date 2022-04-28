@@ -4,6 +4,7 @@ title: 2. Interface Ouali
 has_children: true
 nav_order: 3
 description: "Présentation de l'interface d'Ouali et des outils à disposition"
+has_toc: false
 permalink: /interface
 ---
 
@@ -18,7 +19,7 @@ difficultés à vous connecter à Ouali.
 
 ## Capsules vidéo
 
-Une introduction à l'usage de l'interface Ouali [est également disponible sous forme de courtes capsules vidéo](https://coordvd.zendesk.com/hc/fr/articles/4458702255378--Nouveaut%C3%A9-04-22-Introduction-%C3%A0-Ouali).
+Une introduction à l'usage de l'interface Ouali est également disponible sous forme de [courtes capsules vidéo](https://coordvd.zendesk.com/hc/fr/articles/4458702255378--Nouveaut%C3%A9-04-22-Introduction-%C3%A0-Ouali).
 
 ## Fonctionnement général
 
@@ -165,7 +166,7 @@ La couleur de l’en-tête indique l’état d'alignement actuel de la notice so
 Après s'être assuré que la notice actuellement sélectionnée dans la liste des candidats (4 dans la vue d'ensemble) ou l'onglet 
 recherche (5) est correcte, utiliser les options accessibles via le menu contextuel à côté du bouton "Définir" pour enregistrer la décision d'alignement:
 
-![Recherche par identifiant du notice cible](/img/interface-correspondance-actions-rapides.png) 
+![Actions rapides du panneau d'alignement](/img/interface-correspondance-actions-rapides.png) 
 
 1. Cliquer sur la flèche à droite du bouton "Définir" pour accéder aux options d'enregistrement rapide
 2. Choisir l'option "validation immédiate" pour enregistrer une décision d'alignement vers la notice cible sélectionnée (vert)
@@ -175,3 +176,28 @@ Ces deux options d'enregistrement rapides sont suffisantes pour la très grande 
 
 Cependant, il peut être nécessaire d'afficher les détails d'un alignement, notamment lorsqu'on doit corriger un alignement existant.
 Pour cela, cliquer sur le bouton "Définir" pour afficher l'interface détaillée:
+
+![Interface détaillée du panneau d'alignement](/img/interface-correspondance-actions-rapides.png)
+
+Les actions suivantes sont possibles dans cette interface:
+
+1. Le bouton "+" permet d'ajouter la notice cible actuellement sélectionnée dans la liste des candidats à l'alignement en cours
+2. Le bouton "-" permet de dissocier une notice cible déjà définie pour l'alignement en cours
+3. Il est ici possible de définir des alignements de plusieurs types. **Dans le cadre du projet Ouali, on ne définit que des correspondances de type "exacte".**
+4. Le niveau de confiance peut être spécifié ici. Cette fonctionallité n'est actuellement pas utilisée dans le cadre du projet Ouali.
+5. Il est possible d'ajouter un commentaire spécifique à un alignement ici. Cette information n'est pas sauvegardée dans Alma et ne sert que pour le projet de migration vers IdRef. Ce champ peut être utilisé librement.
+6. Utiliser l'icône disque pour enregistrer l'alignement tel que défini.
+7. Utiliser le bouton "x" pour fermer la fenêtre d'alignement sans sauvegarder les changements.
+
+Si aucune notice cible n'est ajoutée à la liste avec l'option "+" ci-dessus, l'alignement sera sauvegardé comme une décision de non-alignement (rouge). Si une notice cible est ajoutée, ce sera sauvegardé comme une décision d'alignement (vert).
+
+À noter qu'il est techniquement possible d'aligner vers plus d'une notice cible, mais on n'utilise pas cette fonctionnalité dans le cadre du projet Ouali. **Vérifier qu'il y a bien une seule notice cible** avant de sauvegarder un alignement.
+
+**Marche à suivre pour corriger un alignement erroné:**
+
+1. Sélectionner la notice source avec un alignement à corriger
+2. Sélectionner la notice cible correcte (s'il y en a une) dans la liste des candidats ou l'interface de recherche
+3. Cliquer le bouton "définir" du panneau d'alignement pour en afficher l'interface détaillée
+4. Retirer la notice cible erronnée au besoin avec le bouton "-"
+5. Lier la notice cible correcte sélectionnée (s'il y en a une) avec le bouton "+" et vérifier que le type d'alignement soit bien "exacte"
+6. Sauvegarder l'alignement

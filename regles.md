@@ -2,6 +2,7 @@
 title: 3. Règles d'alignement
 has_children: true
 nav_order: 3
+has_toc: false
 permalink: /regles
 ---
 
