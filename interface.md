@@ -12,8 +12,7 @@ permalink: /interface
 
 On accède à Ouali en naviguant vers [ouali.renouvaud.ch](https://ouali.renouvaud.ch). 
 
-Utilisez vos identifiants Alma habituels pour vous identifier, en prenant soin de choisir le réseau 
-(Network Zone, Sciences et Patrimoines, Écoles et Lecture publique) correspondant à votre identifiant.
+Utilisez vos identifiants Alma habituels pour vous identifier, en prenant soin de choisir l'institution (Sciences et Patrimoines, Écoles et Lecture publique, Network Zone) correspondant à votre identifiant.
 Veuillez contacter la [Coordination Renouvaud](mailto:coordrnv@renouvaud.ch) si vous rencontrez des
 difficultés à vous connecter à Ouali.
 
@@ -29,9 +28,11 @@ représente une notice d'autorité du référentiel source aligné vers une noti
 Pour construire ces alignements, le système effectue, pour chaque notice du référentiel source, une recherche de notices dans le 
 référentiel cible correspondantes qui sont ensuite comparés de manière détaillée au moyen d’un algorithme. 
 En fonction des résultats de ces calculs de correspondance, le système va émettre une décision pour la notice source concernée qui 
-consistera soit à établir automatiquement soit une décision d'alignement vers une notice correspondante dans le référentiel cible,
-soit une décision de non-alignement (il n'y a pas d'équivalence dans le référentiel cible), soit encore de laisser la notice source
-en état d’attente d’arbitrage manuel.
+peut prendre les formes suivantes:
+
+* établir automatiquement une décision d'alignement vers une notice correspondante dans le référentiel cible,
+* établir automatiquement une décision de non-alignement (il n'y a pas d'équivalence dans le référentiel cible),
+* laisser la notice source en état d'attente d'arbitrage manuel.
 
 Ces éléments en attente d’arbitrage peuvent ensuite être traités au moyen de l’interface d’arbitrage décrite dans ce manuel et ainsi compléter l’alignement.
 
@@ -93,7 +94,6 @@ Cette liste comporte les notices qui ont été attribuées automatiquement à l'
 2. Rejeter tous les éléments attribués et de recevoir un nouvel ensemble d’éléments attribués
 3. Rejeter un élément spécifique et le renvoyer dans le lot général des notices à traiter. C'est l'option à choisir lorsqu'on n'est pas certain de la décision à prendre. La notice sera réattribuée à un autre usager.
 4. Cliquer sur une notice dans la liste pour la sélectionner et l'afficher dans la partie 2 de l'interface.
-5. Il est également possible de sélectionner ici une notice déjà traitée et ainsi modifier une décision déjà prise (par exemple pour corriger une erreur).
 
 En cliquant sur l'onglet "Tout" on accède à la liste de toutes les notices présentes dans le référentiel source actif. 
 
@@ -106,6 +106,12 @@ On peut ici
 
 Noter que les résultats d'une recherche s'affichent dans la page 1 de la liste. Lorsqu'on fait une recherche dans cet onglet, s'assurer
 que la page 1 est sélectionnée.
+
+Au-dessous de la liste des notices à traiter s'affichent les derniers éléments traités dans l'ordre chronologique inverse
+(dernière modification en haut de la liste). 
+
+Il est possible de sélectionner une notice déjà traitée (dans l'onglet Tout et dans la liste des éléments traités)
+et ainsi modifier une décision déjà prise (par exemple pour corriger une erreur).
 
 ### 2. Détail de la notice source    
 

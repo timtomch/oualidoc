@@ -52,7 +52,20 @@ sont à considérer pour choisir vers quelle notice définir l'alignement.
 2. Si le référentiel cible est **IdRef**, aligner en priorité vers la notice cible ayant le plus de notices bibliographiques en commun avec la notice source.
 2. Sinon, aligner vers la notice cible ayant le plus de notices bibliographiques liées.
 3. Sinon, aligner vers la notice cible la plus complète (p.ex. notes d'application)
+4. Sinon, aligner vers la notice cible ayant l'identifiant le plus petit (la plus ancienne).
 
 Il n'est pas nécessaire de prendre note des cas de doublons rencontrés.
 
 (décision GT IdRef 7.3.2022)
+
+### Exemple
+
+| Source                      | Cible                                                                                |
+| --------------------------- | ------------------------------------------------------------------------------------ |
+| Vagaggini, Cyprien          | Vagaggini, Cipriano 1909-1999 [idref:195300351](https://www.idref.fr/195300351)      |
+|                             | Vagaggini, Cyprien bénédictin 1909- [idref:077449681](https://www.idref.fr/077449681)|
+
+Décision: aligner vers la première cible (idref:195300351). En-effet, même si la notice cible n'est pas la plus ancienne dans
+IdRef (son identifiant est plus élevé que la 2e sur la liste), elle est la plus complète: date de décès, notice d'application
+détaillée. Les notices bibliographiques liées jouent peu de rôle ici car on retrouve plus ou moins les mêmes sur chacune des deux
+notices candidates. Cette décision correspond au cas numéro 3 dans la liste ci-dessus.

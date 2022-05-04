@@ -35,34 +35,27 @@ définition des instances, il n'est actuellement pas possible de séparer les co
 
 Il est également à noter qu'on ne fait actuellement pas d'alignement via les ATC pour les notices de type titre. Ceci est dû à une
 situation particulière aux titres dans le fichier ATC (certains titres de série ont été ajoutés au fichier d'autorité lors de la
-migration initiale vers Alma).
+migration initiale vers Alma). En effet, IdRef n'utilise pas d'autorités titre pour le catalogage formel.
 
 ## Spécificités des référentiels
 
 ### ATC
-Le référentiel ATC est utilisé par Renouvaud et RERO depuis plus de 20 ans. Son nom provient du fait qu'il contient des notices 
-d'autorité de type Auteurs, Titres et Collectivités.
+Le référentiel ATC est utilisé par Renouvaud et a été créé dans le cadre de RERO il y a plus de 20 ans. Son nom provient du fait 
+qu'il contient des notices d'autorité de type Auteurs, Titres et Collectivités.
+Lors de la création de Renouvaud en 2016, le réseau vaudois a repris ce fichier à son compte, en le développant de son côté et sans 
+synchronisation avec le fichier RERO.
 
 De par sa nature romande, le référentiel ATC comporte de nombreuses spécificités régionales. On s'attend à ne pas trouver une notice
 cible dans IdRef pour ces notices spécifiques au contexte vaudois. Celles-ci seront créées dans IdRef lors de la migration.
 
 ### IdRef
 Le référentiel IdRef est surtout utilisé dans des bibliothèques universitaires et de recherche, principalement en France et de plus
-en plus dans d'autres contextes francophones. Par conséquent, on s'attend à y trouver des notices assez pointues, par contre les
+en plus dans d'autres contextes francophones. Par conséquent, on s'attend à y trouver des notices assez pointues (par exemple le nom
+de doctorants français), par contre les
 entrées spécifiques au contexte romand, voire suisse ou germanophone en général, sont plus rares. RERO a commencé à ajouter de telles
 notices dans IdRef. Les instances Ouali sont mises à jour régulièrement avec les alignements ainsi fournis par RERO, mais il est 
 possible qu'il y ait un délai entre la dernière mise à jour et de telles créations récentes. Il ne faut donc pas s'étonner si on
 trouve dans IdRef des alignements "évidents" qui n'ont pas été identifiés par l'algorithme d'Ouali.
-
-Il faut être attentif au fait qu'IdRef contient des entrées de noms de personne de type "sujet", par exemple pour les personnages
-historiques ou fictifs.
-
-IdRef comporte également des notices "auteur-titre" (par exemple _Baudelaire, Charles 1821-1867 Le Spleen de Paris_) qui ne sont
-pas distinguées des notices de type "nom de personne". Il est important de ne pas aligner des auteurs vers des auteurs-titre.
-
-Les règles de catalogage utilisés pour la création d'entrée dans IdRef diffèrent de celles utilisées dans les référentiels rnv-mat
-ou ATC. Notamment, IdRef utilise la forme francisée pour les noms propres (p.ex. _Louis II roi de Bavière 1845-1886_) alors que les ATC
-par exemple utilisent la langue d'origine (_Ludwig II, roi de Bavière_).
 
 Pour plus de détails, [consulter la documentation IdRef](http://documentation.abes.fr/aideidref/accueil/fr/index.html).
 
