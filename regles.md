@@ -13,6 +13,8 @@ Cette section décrit les règles à suivre lors de l'arbitrage des alignements 
 
 * [Collectivités et congrès](congres)
 * [Noms de personne](personnes)
+* [Noms de lieux géographiques](lieux)
+* [Titres](titres)
 
 Ces procédures sont en cours de développement et restent à discuter par le groupe de travail Ouali.
 Elles sont donc amenées à évoluer.
@@ -60,10 +62,10 @@ Il n'est pas nécessaire de prendre note des cas de doublons rencontrés.
 
 ### Exemple
 
-| Source                      | Cible                                                                                |
-| --------------------------- | ------------------------------------------------------------------------------------ |
-| Vagaggini, Cyprien          | Vagaggini, Cipriano 1909-1999 [idref:195300351](https://www.idref.fr/195300351)      |
-|                             | Vagaggini, Cyprien bénédictin 1909- [idref:077449681](https://www.idref.fr/077449681)|
+| Source                      | Cible                                                                                  |
+| --------------------------- | -------------------------------------------------------------------------------------- |
+| Vagaggini, Cyprien          | Vagaggini, Cipriano 1909-1999 ([idref:195300351](https://www.idref.fr/195300351))      |
+|                             | Vagaggini, Cyprien bénédictin 1909- ([idref:077449681](https://www.idref.fr/077449681))|
 
 Décision: aligner vers la première cible (idref:195300351). En-effet, même si la notice cible n'est pas la plus ancienne dans
 IdRef (son identifiant est plus élevé que la 2e sur la liste), elle est la plus complète: date de décès, notice d'application

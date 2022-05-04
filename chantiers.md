@@ -57,7 +57,8 @@ notices dans IdRef. Les instances Ouali sont mises à jour régulièrement avec 
 possible qu'il y ait un délai entre la dernière mise à jour et de telles créations récentes. Il ne faut donc pas s'étonner si on
 trouve dans IdRef des alignements "évidents" qui n'ont pas été identifiés par l'algorithme d'Ouali.
 
-Pour plus de détails, [consulter la documentation IdRef](http://documentation.abes.fr/aideidref/accueil/fr/index.html).
+Pour plus de détails, [consulter la documentation IdRef](http://documentation.abes.fr/aideidref/accueil/fr/index.html) ou
+[le guide d'indexation RAMEAU](https://rameau.bnf.fr/docs_reference/guide_rameau).
 
 ## Instances Ouali
 Il y a environ 1.2 million de notices à traiter au total. On estime qu'Ouali est capable d'aligner automatiquement 60%-80% de cas, suivant la catégorie, ce qui laisse environ 200'000 notices à arbitrer manuellement.
