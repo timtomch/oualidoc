@@ -45,9 +45,9 @@ ne doivent pas être alignées vers les notices de type "auteur-titre" que l'on 
 | Source                      | Cible                                                    |
 | --------------------------- | -------------------------------------------------------- |
 | Baudelaire, Charles         | Baudelaire, Charles 1821-1867 ([idref:026709635](https://www.idref.fr/026709635)) |
-|                             | Baudelaire, Charles 1821-1867 **Le Spleen de Paris** ([idref:028640454](https://www.idref.fr/028640454))|
-|                             | Baudelaire, Charles 1821-1867 **Correspondances** ([idref:034619933](https://www.idref.fr/034619933))|
+|                             | Baudelaire, Charles 1821-1867 Le Spleen de Paris ([idref:028640454](https://www.idref.fr/028640454))|
+|                             | Baudelaire, Charles 1821-1867 Correspondances ([idref:034619933](https://www.idref.fr/034619933))|
 |                             | ...                                                      |
 
-Décision: Aligner vers le premier candidat car il s'agit de l'entrée d'autorité de type "nom de personne" pour Baudelaire. Les autres
-candidats correspondent à des oeuvres.
+**Décision:** Aligner vers le premier candidat car il s'agit de l'entrée d'autorité de type "nom de personne" pour Baudelaire. 
+Les autres candidats correspondent à des oeuvres.

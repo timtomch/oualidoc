@@ -33,7 +33,7 @@ Voici quelques cas de figure qui peuvent se présenter:
 |                                          | International James Joyce Symposium 18 2002 Trieste, Italie |
 |                                          | (aucune autre notice correspondante)       |
 
-Décision: non-alignement (rouge)
+**Décision:** Non-alignement (rouge)
 
 * Le référentiel cible contient une entrée générique, ainsi que des entrées pour d'autres années du congrès que l'on souhaite aligner, mais pas pour l'année à laquelle correspond la notice source.
 
@@ -44,7 +44,7 @@ Décision: non-alignement (rouge)
 |                                          | International Exeter symposium 07 2004 Charney Manor, GB |
 |                                          | International Exeter symposium 08 2011 Charney Manor, GB |
 
-Décision: non-alignement (rouge)
+**Décision:** Non-alignement (rouge)
 
 * Il existe une équivalence parfaite
 
@@ -52,7 +52,7 @@ Décision: non-alignement (rouge)
 | ---------------------------------------- | -------------------------------------------------------- |
 | DARH 2005 (1 : 2005 : Yverdon-les-Bains) | Dextrous Autonomous Robots and Humanoids 1 2005 Yverdon-les-Bains, Suisse                           |
 
-Décision: Alignement (vert)
+**Décision:** Alignement (vert)
 
 ## La notice source ne comporte pas le nom du congrès (incomplète)
 
@@ -70,7 +70,7 @@ Il s'agit dans ce cas d'erreurs de catalogage ou d'importation d'anciens référ
 | USA Meeting (1999 : Washington, DC)      | ?                                                        |
 | Congress (2003 : Lyon, France)           | ?                                                        |
 
-Décision: déférer à un.e spécialiste. Renvoyer la notice dans le panier (gris)
+**Décision:** Déférer à un.e spécialiste. Renvoyer la notice dans le panier (gris)
 
 ## Il n'y a pas d'équivalence exacte pour la section d'une organisation
 
@@ -94,7 +94,7 @@ Voici quelques cas de figure qui peuvent se présenter:
 | Oeuvre suisse d'entraide ouvrière. Vaud  | Schweizerisches Arbeiterhilfswerk                        |
 |                                          | (aucune autre notice correspondante)                     |
 
-Décision: non-alignement (rouge)
+**Décision:** Non-alignement (rouge)
 
 * Le référentiel cible contient des entrées pour d'autres sections de l'organisme que l'on souhaite aligner, mais pas pour la section à laquelle correspond la notice source. Il s'agit d'un organisme suisse.
 
@@ -105,6 +105,6 @@ Décision: non-alignement (rouge)
 |                                                       | FSG Fribourg-Ancienne (Suisse)              |
 |                                                       | FSG Freiburgia (Fribourg, Suisse)           |
 
-Décision: non-alignement (rouge)
+**Décision:** Non-alignement (rouge)
 
 (Ajouter un exemple de section non-Suisse)

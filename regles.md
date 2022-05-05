@@ -67,7 +67,7 @@ Il n'est pas nécessaire de prendre note des cas de doublons rencontrés.
 | Vagaggini, Cyprien          | Vagaggini, Cipriano 1909-1999 ([idref:195300351](https://www.idref.fr/195300351))      |
 |                             | Vagaggini, Cyprien bénédictin 1909- ([idref:077449681](https://www.idref.fr/077449681))|
 
-Décision: aligner vers la première cible (idref:195300351). En-effet, même si la notice cible n'est pas la plus ancienne dans
+**Décision:** Aligner vers la première cible (idref:195300351). En-effet, même si la notice cible n'est pas la plus ancienne dans
 IdRef (son identifiant est plus élevé que la 2e sur la liste), elle est la plus complète: date de décès, notice d'application
 détaillée. Les notices bibliographiques liées jouent peu de rôle ici car on retrouve plus ou moins les mêmes sur chacune des deux
 notices candidates. Cette décision correspond au cas numéro 3 dans la liste ci-dessus.
