@@ -1,5 +1,5 @@
 ---
-title: Noms de lieux géographiques
+title: Lieux
 parent: 3. Règles d'alignement
 has_children: false
 nav_order: 3
@@ -14,7 +14,7 @@ Ces procédures sont en cours de discussion par le groupe de travail Ouali et so
 
 ## Formes historiques des noms de pays
 
-Les règles d'indexation RERO/Renouvaud diffèrent des règles appliquées par IdRef. C'est notamment le cas pour les formes
+Les règles d'indexation RERO/Renouvaud diffèrent des règles RAMEAU appliquées par IdRef. C'est notamment le cas pour les formes
 historiques de noms de pays. Dans RERO, la convention est de créer une notice distincte lorsqu'un pays change de nom.
 Dans IdRef, cela dépend si le changement de nom est accompagné d'une discontinuité territoriale. Selon [le guide d'indexation RAMEAU](https://rameau.bnf.fr/docs_reference/guide_rameau)
 (page 209), _lorsqu'il y a une continuité de nom ou de territoire, la forme actuelle du nom est la seule retenue_
@@ -75,7 +75,7 @@ Voici quelques cas de figure qui peuvent se présenter:
 **Décision:** Non-alignement (rouge). La notice cible candidate ci-dessus (Diocèse de Rome) est de type collectivité alors que 
 la notice source est une entité géographique. Aucun autre candidat n'a été trouvé.
 
-* Un diocèse est une subdivision hiérarchique (collectivité) mais peut avoir été entré par erreur comme un lieu
+* Un diocèse est une subdivision hiérarchique (collectivité) mais peut avoir été entré par erreur comme un lieu.
 
 | Source (Lieu)            | Cible (Collectivité)                                                                  |
 | -------------------------| ------------------------------------------------------------------------------------- |
