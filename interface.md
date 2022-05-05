@@ -38,7 +38,7 @@ Ces éléments en attente d’arbitrage peuvent ensuite être traités au moyen 
 
 Chaque utilisateur se voit automatiquement attribuer un ensemble de notices à arbitrer (initialement 25) qu’il peut alors traiter à son rythme, tout en rejetant les cas qu’il n’est pas en mesure de traiter. Au fur et à mesure de l’avancement, des nouveaux éléments sont automatiquement attribués en fin de liste à de sorte à conserver un ensemble contenant toujours au moins 25 éléments jusqu’à ce que la totalité des cas à arbitrer soit traitée. 
 
-Les éléments restent attribués pour une période de 10 jours au maximum (remis à zéro lors de chaque connexion sur Ouali). Ensuite, ils redeviennent disponibles pour être attribués à d’autres utilisateurs.
+Les éléments restent attribués pour une période de 3 jours au maximum (remis à zéro lors de chaque connexion sur Ouali). Ensuite, ils redeviennent disponibles pour être attribués à d’autres utilisateurs.
 
 ## Codes de couleur
 
