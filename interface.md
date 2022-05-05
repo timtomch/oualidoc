@@ -87,7 +87,7 @@ Cet élément d'interface contrôle quelle notice du référentiel source est s�
 
 L'onglet "Attribués" s'affiche par défaut:
 
-<img src="/oualidoc/img/interface-source-attribues.png" alt="Liste des notices attribuées" style="float: left;" width="200px"/>
+<img src="/oualidoc/img/interface-source-attribues.png" alt="Liste des notices attribuées" width="200px"/>
 
 Cette liste comporte les notices qui ont été attribuées automatiquement à l'usager actif. Les opérations suivantes sont possibles
 
@@ -99,7 +99,7 @@ Cette liste comporte les notices qui ont été attribuées automatiquement à l'
 
 En cliquant sur l'onglet "Tout" on accède à la liste de toutes les notices présentes dans le référentiel source actif. 
 
-<img src="/oualidoc/img/interface-source-tout.png" alt="Liste de toutes les notices du référentiel source" style="float: left;" width="200px"/>
+<img src="/oualidoc/img/interface-source-tout.png" alt="Liste de toutes les notices du référentiel source" width="200px"/>
 
 On peut ici 
 
