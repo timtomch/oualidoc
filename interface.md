@@ -42,6 +42,7 @@ Les éléments restent attribués pour une période de 3 jours au maximum (remis
 
 ## Codes de couleur
 
+<img src="/oualidoc/img/interface-couleurs.png" alt="Codes couleurs utilisés dans Ouali" style="float: right;" width="150px"/>
 Lorsqu'une **décision d'alignement** vers une notice du référentiel cible a été effectuée (soit automatiquement soit après arbitrage
 manuel), la notice s'affiche en **vert** dans Ouali.
 
