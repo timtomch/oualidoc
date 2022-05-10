@@ -122,3 +122,6 @@ aux notices de type nom de personne.
 | Source (Collectivité)                 | Cible (Nom de personne)                                              |
 | ------------------------------------- | -------------------------------------------------------------------- |
 | Du Guet, famille                      | Du Guet (famille) ([idref:09905082X](https://www.idref.fr/09905082X))|
+
+**Décision:** Alignement (vert). Même si la notice cible est de type nom de personne, cet alignement est conforme aux 
+règles d’indexation dans IdRef.
