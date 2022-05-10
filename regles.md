@@ -1,7 +1,7 @@
 ---
 title: 3. Règles d'alignement
 has_children: true
-nav_order: 3
+nav_order: 4
 has_toc: false
 permalink: /regles
 ---
@@ -11,10 +11,10 @@ permalink: /regles
 Cette section décrit les règles à suivre lors de l'arbitrage des alignements dans Ouali. Les règles ci-dessous s'appliquent
 à toutes les instances. Vous trouverez également une liste de cas particuliers à chaque instance dans les pages suivantes:
 
-* [Collectivités et congrès](congres)
 * [Noms de personne](personnes)
-* [Noms de lieux géographiques](lieux)
+* [Collectivités et congrès](congres)
 * [Titres](titres)
+* [Noms de lieux géographiques](lieux)
 
 Ces procédures sont en cours de développement et restent à discuter par le groupe de travail Ouali.
 Elles sont donc amenées à évoluer.

@@ -2,7 +2,7 @@
 title: Titres
 parent: 3. Règles d'alignement
 has_children: false
-nav_order: 4
+nav_order: 3
 permalink: /titres
 ---
 
