@@ -108,3 +108,17 @@ Voici quelques cas de figure qui peuvent se présenter:
 **Décision:** Non-alignement (rouge)
 
 (Ajouter un exemple de section non-Suisse)
+
+## Les familles (libraires, imprimeurs) sont à aligner avec des personnes
+
+Ce cas de figure intervient surtout dans le cas de familles de libraires et imprimeurs.
+Il s'agit d'un cas de convention différente entre la pratique RERO et IdRef. Dans RERO, ces familles
+sont considérées comme des collectivités, mais dans IdRef ce sont des noms de personne. Si aucune correspondance
+n'est trouvée dans IdRef pour une famille de libraires ou imprimeur, il peut être nécessaire d'étendre la recherche
+aux notices de type nom de personne.
+
+### Exemple
+
+| Source (Collectivité)                 | Cible (Nom de personne)                                              |
+| ------------------------------------- | -------------------------------------------------------------------- |
+| Du Guet, famille                      | Du Guet (famille) ([idref:09905082X](https://www.idref.fr/09905082X))|

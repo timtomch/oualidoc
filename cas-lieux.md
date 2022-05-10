@@ -51,7 +51,9 @@ correspondent pas exactement aux notices sources. Dans le doute, consulter [le g
 | Amérique du nord -- ouest                | Pacifique, Côte du (Amérique du Nord)          |
 | San Juan (Etats-Unis, bassin)            | San Juan Valley (Calif. ; vallée)              |
 
-**Décision:** Non-alignement (rouge) pour les deux cas ci-dessus car l'équivalence n'est pas exacte.
+**Décision:** Non-alignement (rouge) pour les deux cas ci-dessus car l'équivalence n'est pas exacte. Pour le deuxième cas,
+après vérification dans le guide RAMEAU, rien n'indique qu'un bassin recouvre une vallée, il s'agit donc bien de deux
+concepts distincts.
 
 ## Alignement vers une collectivité
 
