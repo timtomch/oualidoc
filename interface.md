@@ -81,7 +81,7 @@ On remarque les éléments d'interface suivants (décrits plus en détail plus l
 
 Le processus d’arbitrage manuel consiste à sélectionner une notice source à traiter dans les liste des éléments à traiter (1) pour l’analyser (2) ensuite choisir l’entité cible correspondante (3) au moyen de la liste des candidats automatiques (4) ou au moyen d’une recherche manuelle (5). Une fois qu’une entité cible correspondante a été sélectionnée, ou qu’aucune entité cible correspondante n’a pu être identifiée, il est alors possible de définir le détail des informations de correspondance au moyen du formulaire d'alignement (6).
 
-### 1. Liste des notices à traiter
+### Liste des notices à traiter
 
 Cet élément d'interface contrôle quelle notice du référentiel source est sélectionnée pour traitement.
 
@@ -96,6 +96,7 @@ Cette liste comporte les notices qui ont été attribuées automatiquement à l'
 3. Rejeter un élément spécifique et le renvoyer dans le lot général des notices à traiter. C'est l'option à choisir lorsqu'on n'est pas certain de la décision à prendre. La notice sera réattribuée à un autre usager.
 4. Cliquer sur une notice dans la liste pour la sélectionner et l'afficher dans la partie 2 de l'interface.
 5. Au-dessous de la liste des notices à traiter s'affichent les derniers éléments traités dans l'ordre chronologique inverse (dernière modification en haut de la liste). 
+
 <br style="clear:all;"/>
 En cliquant sur l'onglet "Tout" on accède à la liste de toutes les notices présentes dans le référentiel source actif. 
 
@@ -108,13 +109,14 @@ On peut ici
 
 Noter que les résultats d'une recherche s'affichent dans la page 1 de la liste. Lorsqu'on fait une recherche dans cet onglet, 
 s'assurer que la page 1 est sélectionnée.
+
 <br style="clear:all;"/>
 #### Modifier un alignement
 
 Il est possible de sélectionner une notice déjà traitée (dans l'onglet Tout et dans la liste des éléments traités)
 et ainsi modifier une décision déjà prise (par exemple pour corriger une erreur).
 
-### 2. Détail de la notice source    
+### Détail de la notice source    
 
 Détail de l’élément source en cours de traitement.
 
@@ -129,18 +131,18 @@ Les opérations suivantes sont possibles
 5. Cette icône indique la catégorie de notice dont il s'agit (ici une notice de type lieu/géographique)
 6. Numéro de la notice dans le référentiel source. C'est le numéro à noter si l'on relève une question ou un problème avec une notice particulière et qu'on souhaite le transmettre à quelqu'un. Ce numéro unique permet de retrouver la notice en question avec plus de certitude qu'avec la vedette.
 
-### 3. Détail de la notice cible   
+### Détail de la notice cible   
 
 Détail de la notice cible actuellement sélectionnée dans la liste 4. Les éléments d'interface sont ici identiques au panneau précédent (notice source), à l'exception du menu contextuel dans la liste des notices bibliographiques liées, qui n'est pas disponible ici.
 
-### 4. Liste des candidats
+### Liste des candidats
 
 Liste des candidats proposés par Ouali. La petite icône affichée donne une indication du niveau de confiance attribué par Ouali à chacun des candidats affichés: confiance élevée (vert), confiance partielle (organge), confiance basse (rouge).
 
 Cette liste n'est pas exhaustive, elle ne reprend que les candidats proposés par l'alogrithme d'Ouali. Pour rechercher l'ensemble du
 référentiel cible, basculer dans l'onglet de recherche (section suivante).
 
-### 5. Recherche dans le référentiel cible
+### Recherche dans le référentiel cible
 
 Lorsqu'aucun candidat proposé par Ouali n'est satisfaisant, une recherche manuelle dans le référentiel cible est souvent nécessaire.
 Cette opération s'effectue dans l'onglet Recherche à côté de la liste des candidats:
@@ -163,7 +165,7 @@ Quelques considérations à observer
 
 ![Recherche par identifiant du notice cible](/img/interface-recherche-cible-id.png) 
 
-### 6. Panneau d'alignement (correspondance)
+### Panneau d'alignement (correspondance)
 
 Lorsqu'on a trouvé une notice dans le référentiel cible vers laquelle on souhaite aligner la notice source sélectionnée,
 ou qu'on s'est assuré qu'il n'y a aucune équivalence pour cette notice, on utilise ce panneau pour enregistrer cette décision.
