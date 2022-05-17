@@ -97,7 +97,7 @@ Cette liste comporte les notices qui ont été attribuées automatiquement à l'
 4. Cliquer sur une notice dans la liste pour la sélectionner et l'afficher dans la partie 2 de l'interface.
 5. Au-dessous de la liste des notices à traiter s'affichent les derniers éléments traités dans l'ordre chronologique inverse (dernière modification en haut de la liste). 
 
-<br style="clear:all;"/>
+<br style="clear:both;"/>
 En cliquant sur l'onglet "Tout" on accède à la liste de toutes les notices présentes dans le référentiel source actif. 
 
 <img src="/oualidoc/img/interface-source-tout.png" alt="Liste de toutes les notices du référentiel source" width="200px" style="float: left;"/>
@@ -110,7 +110,7 @@ On peut ici
 Noter que les résultats d'une recherche s'affichent dans la page 1 de la liste. Lorsqu'on fait une recherche dans cet onglet, 
 s'assurer que la page 1 est sélectionnée.
 
-<br style="clear:all;"/>
+<br style="clear:both;"/>
 #### Modifier un alignement
 
 Il est possible de sélectionner une notice déjà traitée (dans l'onglet Tout et dans la liste des éléments traités)
