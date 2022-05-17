@@ -87,7 +87,7 @@ Cet élément d'interface contrôle quelle notice du référentiel source est s�
 
 L'onglet "Attribués" s'affiche par défaut:
 
-<img src="/oualidoc/img/interface-source-attribues.png" alt="Liste des notices attribuées" width="200px"/>
+<img src="/oualidoc/img/interface-source-attribues.png" alt="Liste des notices attribuées" width="200px" style="float: left;"/>
 
 Cette liste comporte les notices qui ont été attribuées automatiquement à l'usager actif. Les opérations suivantes sont possibles
 
@@ -96,10 +96,10 @@ Cette liste comporte les notices qui ont été attribuées automatiquement à l'
 3. Rejeter un élément spécifique et le renvoyer dans le lot général des notices à traiter. C'est l'option à choisir lorsqu'on n'est pas certain de la décision à prendre. La notice sera réattribuée à un autre usager.
 4. Cliquer sur une notice dans la liste pour la sélectionner et l'afficher dans la partie 2 de l'interface.
 5. Au-dessous de la liste des notices à traiter s'affichent les derniers éléments traités dans l'ordre chronologique inverse (dernière modification en haut de la liste). 
-
+<br style="clear:all;"/>
 En cliquant sur l'onglet "Tout" on accède à la liste de toutes les notices présentes dans le référentiel source actif. 
 
-<img src="/oualidoc/img/interface-source-tout.png" alt="Liste de toutes les notices du référentiel source" width="200px"/>
+<img src="/oualidoc/img/interface-source-tout.png" alt="Liste de toutes les notices du référentiel source" width="200px" style="float: left;"/>
 
 On peut ici 
 
@@ -108,7 +108,7 @@ On peut ici
 
 Noter que les résultats d'une recherche s'affichent dans la page 1 de la liste. Lorsqu'on fait une recherche dans cet onglet, 
 s'assurer que la page 1 est sélectionnée.
-
+<br style="clear:all;"/>
 #### Modifier un alignement
 
 Il est possible de sélectionner une notice déjà traitée (dans l'onglet Tout et dans la liste des éléments traités)

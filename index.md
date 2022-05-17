@@ -6,7 +6,7 @@ description: "Documentation du projet Ouali de migration des autorités RenouVau
 permalink: /
 ---
 
-# Introduction
+# Introduction à Ouali
 
 En 2021, la Coordination Renouvaud a entamé un projet de migration de registres d'autorités locales vers le référentiel IdRef.
 Pour mener à bien ce projet, il est nécessaire d'aligner le plus possible de notices d'autorités locales (qu'on appelle référentiel
