@@ -52,6 +52,7 @@ Lorsqu'une notice est **en attente d'arbitrage** (aucune décision n'a encore é
 
 La notice **actuellement sélectionnée** (sur laquelle on travaille) s'affiche en **bleu**.
 
+<br style="clear:both;"/>
 ## Liste des instances
 
 Une fois identifié dans Ouali, la liste des [instances](chantiers#instances-ouali) s'affiche. Cliquer sur le bouton "Arbitrage" pour
@@ -87,7 +88,7 @@ Cet élément d'interface contrôle quelle notice du référentiel source est s�
 
 L'onglet "Attribués" s'affiche par défaut:
 
-<img src="/oualidoc/img/interface-source-attribues.png" alt="Liste des notices attribuées" width="200px" style="float: left; margin-right:10px;"/>
+<img src="/oualidoc/img/interface-source-attribues.png" alt="Liste des notices attribuées" width="200px" style="float: left; margin-right:20px;"/>
 
 Cette liste comporte les notices qui ont été attribuées automatiquement à l'usager actif. Les opérations suivantes sont possibles
 
@@ -100,7 +101,7 @@ Cette liste comporte les notices qui ont été attribuées automatiquement à l'
 <br style="clear:both;"/>
 En cliquant sur l'onglet "Tout" on accède à la liste de toutes les notices présentes dans le référentiel source actif. 
 
-<img src="/oualidoc/img/interface-source-tout.png" alt="Liste de toutes les notices du référentiel source" width="200px" style="float: left; margin-right:10px;"/>
+<img src="/oualidoc/img/interface-source-tout.png" alt="Liste de toutes les notices du référentiel source" width="200px" style="float: left; margin-right:20px;"/>
 
 On peut ici 
 
