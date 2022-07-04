@@ -24,6 +24,9 @@ Les règles de catalogage utilisés pour la création d'entrée dans IdRef diff�
 ou ATC. Notamment, IdRef utilise la forme francisée pour les noms propres (p.ex. _Louis II roi de Bavière 1845-1886_) alors que les ATC
 par exemple utilisent la langue d'origine (_Ludwig II, roi de Bavière_).
 
+IdRef contiendra moins de personnalités suisses. Exemple : Jost, Felix, juriste suisse. Il y a peu de chance que l'on trouve un ouvrage de droit suisse dans le Sudoc.
+
+
 Pour plus de détails, [consulter la documentation IdRef](http://documentation.abes.fr/aideidref/accueil/fr/index.html).
 
 ## Attention aux homonymes
