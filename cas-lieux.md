@@ -91,3 +91,18 @@ le type collectivité. De plus dans ce cas de figure, il y a un doublon dans le 
 un plus grand nombre de notices bibliographique en commun avec celui-ci et (b) il s'agit de la notice la plus ancienne (identifiant
 plus petit).
 
+* Pour les parcs nationaux, il existe des autorités de type lieu et de type collectivité
+
+Celles-ci ne sont pas interchangeables! En-effet, le guide RAMEAU admet que le même nom peut recouvrir plusieurs entités.
+Ainsi on distingue le Parc National Suisse en tant que lieu, du Parc National Suisse en tant qu'institution vouée à la protection
+de ce dernier.
+
+| Source (Lieu)                                    | Cible                                                       |
+| ------------------------------------------------ | ------------------------------------------------------------------- |
+| Parc national des Ecrins (France, parc national) | Écrins (France ; Parc national des) ([idref:182441245](https://www.idref.fr/182441245)) - type **Lieu** |
+| Parc national suisse (Suisse, parc national)     | Parc national suisse ([idref:06707202X](https://www.idref.fr/06707202X)) - type **Collectivité** |
+
+**Décision:** Uniquement aligner les notices de type lieu vers une notice correspondante de même type! Dans les exemples ci-dessus
+on alignera (vert) le parc national des Écrins car il existe une notice de type lieu correspondante. Par contre, on prendra une
+décision de non-alignement (rouge) pour le Parc national suisse, car il n'existe pas de notice correspondante de type lieu
+dans IdRef (celle qui existe est de type collectivité).

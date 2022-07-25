@@ -54,3 +54,13 @@ ne doivent pas être alignées vers les notices de type "auteur-titre" que l'on 
 
 **Décision:** Aligner vers le premier candidat car il s'agit de l'entrée d'autorité de type "nom de personne" pour Baudelaire. 
 Les autres candidats correspondent à des oeuvres.
+
+## Autorité "Nemo"
+
+Il était d'usage au 19e siècle d'utiliser le pseudonyme "Nemo" lorsqu'un auteur souhaitait rester anonyme. Ainsi, l'appellation "Nemo"
+se retrouve utilisée par plusieurs individus sans lien les uns avec les autres, il n'est donc pas opportun de créer une notice
+d'autorité "Nemo" et d'y lier les ouvrages publiés de manière anonyme. Cependant, de telles notices ont quand même été créées par 
+erreur, il faudra donc les supprimer lors du passage à IdRef. Pour simplifier cette procédure, **il est important de ne pas aligner
+les notices "Nemo"**.
+
+**Décision:** Ne pas aligner de telles notices mais les remettre dans le panier commun de notices à traiter (bouton "-").
