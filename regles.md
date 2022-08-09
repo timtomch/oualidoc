@@ -71,3 +71,23 @@ Il n'est pas nécessaire de prendre note des cas de doublons rencontrés.
 IdRef (son identifiant est plus élevé que la 2e sur la liste), elle est la plus complète: date de décès, notice d'application
 détaillée. Les notices bibliographiques liées jouent peu de rôle ici car on retrouve plus ou moins les mêmes sur chacune des deux
 notices candidates. Cette décision correspond au cas numéro 3 dans la liste ci-dessus.
+
+## Autorités ambigües ("pots communs")
+Certaines notices d'autorité sont liées à des documents qui n’ont a priori pas de lien entre eux. 
+
+Exemple : L’autorité « Sabine Rey » regroupe des documents traitant d’au moins trois domaines différents :
+
+    Derborence, la nature et les hommes : treize randonnées commentées / Rey, Sabine / 991000227679702852
+    Effets de la photobiomodulation sur la récupération sportive chez les athlètes / Rey, Sabine / 991021429997502852
+    Réflexions sur les relations affectives enfants-éducateurs / Rey, Sabine / 991007774739702852
+
+Cela est dû à une ancienne pratique où l'identité de la personne (ou autre entité) n'était pas vérifié et où l'on se contentait de reprendre une forme, même si elle ne correspondait pas. On appelait cette pratique les "pots communs".
+
+Dans ce genre de cas, on va trouver dans IdRef plusieurs autorités possibles. Il faut choisir celle qui partage le plus grand nombre de notices liées communes.
+
+Il faut également signaler les notices liées erronées en utilisant la fonctionnalité "Signaler une vedette incorrecte":
+1. Placer le curseur sur la notice bibliographique voulue.
+2. Faire un clic-droite.
+3. Choisir "Signaler une vedette incorrecte".
+
+Ouali ajoute un sous-champ $$5 à la vedette incorrecte. Elle sera modifiée ultérieurement.
