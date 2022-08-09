@@ -17,15 +17,11 @@ Ces procédures sont en cours de discussion par le groupe de travail Ouali et so
 Il faut être attentif au fait qu'IdRef contient des entrées de noms de personne de type "sujet", par exemple pour les personnages
 historiques ou fictifs.
 
-IdRef comporte également des notices "auteur-titre" (par exemple _Baudelaire, Charles 1821-1867 Le Spleen de Paris_) qui ne sont
-pas distinguées des notices de type "nom de personne". Il est important de ne pas aligner des auteurs vers des auteurs-titre.
+IdRef est le fichier d'autorité du Sudoc, qui est un catalogue collectif de bibliothèques de recherche et de l'enseignement supérieur en France. On va donc y trouver peu de personnalités étrangères de domaines non académiques (musiciens suisses, juristes suisses, etc.). Exemple : Jost, Felix, juriste suisse. Il y a peu de chance que l'on trouve un ouvrage de droit suisse dans le Sudoc.
 
 Les règles de catalogage utilisés pour la création d'entrée dans IdRef diffèrent de celles utilisées dans les référentiels rnv-mat
 ou ATC. Notamment, IdRef utilise la forme francisée pour les noms propres (p.ex. _Louis II roi de Bavière 1845-1886_) alors que les ATC
 par exemple utilisent la langue d'origine (_Ludwig II, roi de Bavière_).
-
-IdRef contiendra moins de personnalités suisses. Exemple : Jost, Felix, juriste suisse. Il y a peu de chance que l'on trouve un ouvrage de droit suisse dans le Sudoc.
-
 
 Pour plus de détails, [consulter la documentation IdRef](http://documentation.abes.fr/aideidref/accueil/fr/index.html).
 
@@ -35,7 +31,7 @@ En général, on recommande de prêter une attention particulière aux notes d'a
 de la bonne personne: dates de vie, localisation géographique, discipline, etc.
 
 Les notices bibliographiques liées peuvent également fournir des indices précieux sur la discipline d'un auteur particulier, etc.
-S'il n'exite aucune notice bibliographique commune aux notices source et cible, une recherche sur le web ou sur Worldcat peut
+S'il n'existe aucune notice bibliographique commune aux notices source et cible, une recherche sur le web ou sur Worldcat peut
 être utile pour identifier les autres oeuvres d'un auteur particulier.
 
 ## Attention aux notices de type "auteur-titre"
